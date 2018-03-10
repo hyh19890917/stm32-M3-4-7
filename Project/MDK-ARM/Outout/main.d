@@ -1,0 +1,15 @@
+.\outout\main.o: ..\User\main.c
+.\outout\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\outout\main.o: ..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\outout\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\outout\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\outout\main.o: ..\User\stm32f10x_conf.h
+.\outout\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\outout\main.o: ..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\outout\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\outout\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\outout\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\outout\main.o: ..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\outout\main.o: ..\User\inc\stdperiph_cfg.h
+.\outout\main.o: ..\User\inc\i2c_ee.h
+.\outout\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

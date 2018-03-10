@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\outout\main.o"
+".\outout\stm32f10x_it.o"
+".\outout\stdperiph_cfg.o"
+".\outout\i2c_ee.o"
+".\outout\core_cm3.o"
+".\outout\system_stm32f10x.o"
+".\outout\startup_stm32f10x_hd.o"
+".\outout\misc.o"
+".\outout\stm32f10x_gpio.o"
+".\outout\stm32f10x_rcc.o"
+".\outout\stm32f10x_usart.o"
+".\outout\stm32f10x_i2c.o"
+--library_type=microlib --strict --scatter ".\Outout\STM32f103.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listing\STM32f103.map" -o .\Outout\STM32f103.axf
